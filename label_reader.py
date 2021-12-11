@@ -29,7 +29,7 @@ class LabelReader():
                 print("Processing... ", line)
                 start = float(line.split(",")[0])
                 end = float(line.split(",")[1])
-                label = line.split(",")[2]
+                label = line.split(",")[2].strip()
                 self.update_driver_state(driver_state, start, end, label, "eye_direction")
 
             

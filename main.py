@@ -265,7 +265,7 @@ def process_speed(args, driver_state):
     print("process speed")
 
 
-def calcuate_accuracy(labeled_state, driver_state):
+def calcuate_accuracy(driver_state, labeled_state):
     print("calcuate_accuracy")
     print(len(labeled_state.states))
     print(len(driver_state.states))
