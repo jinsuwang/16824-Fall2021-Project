@@ -295,7 +295,7 @@ def main(args):
     if args.evaluate_result:
         print("============ Evaluting results ============")
 
-        label_reader = LabelReader(5, 5)
+        label_reader = LabelReader(50, 5)
         labeled_driver_state = label_reader.generate_driver_state(args.video_label_path)
         acc = calcuate_accuracy(driver_state, labeled_driver_state)
         print("====== accuracy is {}".format(acc))
