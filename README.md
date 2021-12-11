@@ -8,8 +8,8 @@ Team member: Ivan Cisneros, Siyao Li, Su Jin
 2. To run the model, you can run the following command. 
 ```
 python main.py \
-  --road_side_input_video_path resource/input/road_2_5.0PFS_10s.mp4 \
-  --driver_input_video_path resource/input/incabin_2_5.0PFS_10s.mp4 \
+  --road_side_input_video_path resource/input/road.mp4 \
+  --driver_input_video_path resource/input/incabin.mp4 \
   --driver_output_video_path resource/output/processed_driver.mp4 \
   --road_side_output_video_path resource/output/processed_road_view.mp4
 ```
